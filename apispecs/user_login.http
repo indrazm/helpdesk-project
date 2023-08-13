@@ -1,0 +1,6 @@
+POST http://localhost:3000/api/auth/login
+
+{
+    "email": "me@indrazm.com",
+    "password": "123456"
+}
