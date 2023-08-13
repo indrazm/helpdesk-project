@@ -3,6 +3,7 @@
     "next/core-web-vitals",
     "airbnb",
     "airbnb-typescript",
+    "prettier",
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:@typescript-eslint/stylistic-type-checked"
   ],
@@ -13,6 +14,15 @@
     "jsx": true
   },
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/heading-has-content": "off",
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "arrow-body-style": "off",
+    "react/function-component-definition": "off"
   }
 }
